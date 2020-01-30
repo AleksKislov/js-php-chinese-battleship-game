@@ -6,7 +6,7 @@ simple battleship game where you need to type in phrases in Chinese in order to 
 Instead of typing players can use SPEECH RECOGNITION
 UPD: 3 commit - added comments section via PHP and MySQLi
 
-the game itself:
+THE GAME LINK:
 https://battleship.chineseplus.ru/
 
 AUDIO AND IMAGES:
