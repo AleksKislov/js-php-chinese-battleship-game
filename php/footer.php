@@ -1,3 +1,43 @@
+<?php require("db.php");
+
+	$query = 'SELECT * FROM comments ORDER BY date DESC';
+
+	$result = mysqli_query($conn, $query);
+
+	$comments = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+	mysqli_free_result($result);
+
+	mysqli_close($conn);
+
+?>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-8 comments">
+			<h3>Комментарии <button type="button" class="btn btn-outline-secondary btn-sm" id="commentsToggle">Тумблер</button></h3>
+
+			<div id="allComments">
+				<?php foreach($comments as $comment) : ?>
+
+					<div class="card bg-light mb-3">
+						<div class="card-header"><?php echo $comment['author']; ?> <?php echo $comment['date'] ?> написал:</div>
+						<div class="card-body">
+							<p><?php echo $comment['body']; ?></p>
+						</div>
+					</div>
+
+				<?php endforeach; ?>
+			</div>
+
+            <a href="<?php echo $ROOT_URL . 'php/add-comment.php' ?>" class="btn btn-outline-primary" style="margin-bottom: 1rem; margin-top: 1rem">Добавить Комментарий</a>
+
+		</div>
+	</div>
+</div>
+
 <hr style="width: 100%; color: rgb(163, 162, 162); height: 1px; background-color:rgb(139, 137, 137); margin-top: 5px" />    
 
 

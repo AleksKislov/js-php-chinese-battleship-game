@@ -6,3 +6,8 @@ $( "#reminderButton" ).click(function() {
 $( "#reminderButtonColors" ).click(function() {
   $( "#reminderColors" ).slideToggle();
 });
+
+
+$( "#commentsToggle" ).click(function() {
+  $( "#allComments" ).slideToggle();
+});
