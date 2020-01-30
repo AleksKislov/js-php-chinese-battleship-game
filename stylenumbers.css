@@ -1,0 +1,574 @@
+.activeLink {
+	background-color: #cce5ff;
+	color: #004085;
+	padding: 2px;
+	border-radius: 2px;
+}
+
+#sm-margin-bt {
+	margin-bottom: 1rem;
+}
+
+#myHeader {
+	display: flex;
+}
+
+#bringLower {
+	font-size: 10px;
+	margin-top: 11px;
+	margin-left: 5px;
+}
+
+.navbar {
+	padding: 0.5rem 1rem;
+}
+
+#collapse0, #collapse2 {
+	font-size: 12px;
+}
+
+#collapse1 {
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+#allAnimals, #allThings {
+	opacity: 0.6;
+}
+
+#emoAndShips {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.damagedModel {
+	width: 10px;
+	height: 10px;
+	border: 1px solid rgb(190, 185, 185);
+	background-color: rgb(23, 207, 78);
+}
+
+.shipModels {
+	width: 10px;
+	height: 10px;
+	border: 1px solid rgb(190, 185, 185);
+	background-color: rgb(194, 55, 55);
+}
+
+.smallShipModels {
+	width: 10px;
+	height: 10px;
+	border: 1px solid rgb(190, 185, 185);
+	background-color: rgb(194, 55, 55);
+}
+
+.mediumShipModels {
+	width: 10px;
+	height: 10px;
+	border: 1px solid rgb(190, 185, 185);
+	background-color: rgb(194, 55, 55);
+}
+
+#emoticons img {
+	width: 64px;
+}
+
+.shipModelsDiv {
+	display: inline-block;
+	opacity: 0.5;
+}
+
+.mediumShipModelsDiv {
+	display: inline-block;
+	opacity: 0.5;
+}
+
+.smallShipModelsDiv {
+	display: inline-block;
+	opacity: 0.5;
+}
+
+#emoticons {
+	margin-top: 5px;
+	text-align: center;
+	opacity: 0.5;
+}
+
+#reminder, #reminderColors, #reminderNumbers {
+	margin: 10px;
+	padding-left: 10px;
+	display: none;
+	opacity: 0.6;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+#reminderButtonDiv {
+	margin: 5px;
+	text-align: center;
+	padding: 5px;
+}
+
+#reminderButtonDiv button {
+	margin: 5px;
+}
+
+.console {
+	padding: 10px;
+	margin: auto;
+	height:180px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	overflow:auto;
+	background-color: rgb(247, 248, 248);
+  }
+
+.speech {
+	border: 0px solid #DDD; 
+	padding: 0; 
+}
+
+.speech input {
+	border: 1; 
+	height: 30px;
+	width: 120px;
+}
+
+.speech img {
+  margin-left: 5px;
+	float: right; 
+	width: 28px; 
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.speech img:hover {
+  opacity: 1;
+}
+
+
+
+input {
+	  width: 110px;
+}
+
+#fireButton {
+	margin-right: 10px;
+}
+
+table {
+	border-spacing: 0px;
+}
+
+.table th, .table td {
+	padding: 0rem;
+	vertical-align: middle;
+	color: #bccae0;
+ 	border: 1px solid rgb(179, 177, 177);
+  	border-top: 1px solid rgb(179, 177, 177);
+}
+
+td:hover {
+	background-color: red;
+	opacity: 0.2;
+}
+
+.victoryInput {
+	background-color:#e9ecef;
+	font-weight:bold;
+}
+
+th {
+	opacity: 0.5;
+}
+
+#searchBox {
+	margin-bottom: 12px;
+}
+
+form {
+	padding: 6px 15px;
+}
+
+.hit {
+	background-color: green;
+	opacity: 0.5;
+	background-image: url('img/cross.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 30%;
+}
+
+.miss {
+	background-color: grey;
+	opacity: 0.3;
+	background-image: url('img/circle.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 10%;
+}
+
+#gameOver {
+	font-size:24px; 
+	text-align:center; 
+	height: 200px;
+	display: table-cell; 
+	vertical-align: middle;
+	opacity: 0.7;
+}
+
+.modal-title {
+	margin: auto;
+}
+ 
+.modalImg {
+	background-image: url('img/victory.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.ship {
+	background-color: black;
+	opacity: 0.5;	
+}
+
+div#messageArea {
+	color: rgb(83, 175, 19);
+}
+
+.replay {
+	background: url("replay.png") no-repeat center center;
+	cursor: pointer;
+	background-size: 70% 70%;
+}
+
+.replay:hover {
+	opacity: 0.7;
+}
+
+/* COLORS */
+
+.白 {
+	background-color: white;
+}
+
+.黑 {
+	background-color: black;
+}
+
+.紫 {
+	background-color: purple;
+}
+
+.绿 {
+	background-color: green;
+}
+
+.红 {
+	background-color: #DF0606;
+}
+
+.灰 {
+	background-color: grey;
+}
+
+.黄 {
+	background-color: #ffff66;
+}
+
+.橙 {
+	background-color: #FFA500;
+}
+
+.蓝 {
+	background-color: #0000CC;
+}
+
+.棕 {
+	background-color: #663300;
+}
+
+.粉 {
+	background-color: #ff1493;
+}
+
+
+/* THINGS & NUMBERS 1 */
+
+.鸟 {
+	background: url("img/1numbers/bird.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.书 {
+	background: url("img/1numbers/book.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.汽车 {
+	background: url("img/1numbers/car.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.电脑 {
+	background: url("img/1numbers/computer.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.花 {
+	background: url("img/1numbers/flower.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.肉 {
+	background: url("img/1numbers/meat.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.桌子 {
+	background: url("img/1numbers/table.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.树 {
+	background: url("img/1numbers/tree.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.椅子 {
+	background: url("img/1numbers/chair.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.衬衫 {
+	background: url("img/1numbers/shirt.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.山 {
+	background: url("img/1numbers/mountain.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.袜子 {
+	background: url("img/1numbers/socks.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.牛 {
+	background: url("img/1level/cow.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.马 {
+	background: url("img/1level/horse.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.鱼 {
+	background: url("img/1level/fish.png") no-repeat center center;
+	  background-size: 80% 80%;
+}
+
+
+/* THINGS & NUMBERS 2 */
+
+.帽子 {
+	background: url("img/2numbers/hat.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.文胸 {
+	background: url("img/2numbers/bra.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.鸭舌帽 {
+	background: url("img/2numbers/cap.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.西装 {
+	background: url("img/2numbers/suit.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.包包 {
+	background: url("img/2numbers/hand-bag.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.牛仔裤 {
+	background: url("img/2numbers/jeans.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.口红 {
+	background: url("img/2numbers/lipstick.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.裤子 {
+	background: url("img/2numbers/pants.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.围巾 {
+	background: url("img/2numbers/scarf.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.短裤 {
+	background: url("img/2numbers/shorts.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.裙子 {
+	background: url("img/2numbers/skirt.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.墨镜 {
+	background: url("img/2numbers/sunglasses.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.T恤 {
+	background: url("img/2numbers/tshirt.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.内裤 {
+	background: url("img/2numbers/underwear.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.手表 {
+	background: url("img/2numbers/watch.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.马甲 {
+	background: url("img/2numbers/vest.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.书包 {
+	background: url("img/2numbers/backpack.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.旗袍 {
+	background: url("img/2numbers/qipao.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.领结 {
+	background: url("img/2numbers/bow-tie.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+
+/* THINGS & NUMBERS 3 */
+
+.围裙 {
+	background: url("img/3numbers/apron.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.皮带 {
+	background: url("img/3numbers/belt.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.大衣 {
+	background: url("img/3numbers/coat.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.梳子 {
+	background: url("img/3numbers/comb.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.连衣裙 {
+	background: url("img/3numbers/dress.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.耳环 {
+	background: url("img/3numbers/earrings.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.眼镜 {
+	background: url("img/3numbers/eyeglasses.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.拖鞋 {
+	background: url("img/3numbers/slippers.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.高跟鞋 {
+	background: url("img/3numbers/highheels.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.项链 {
+	background: url("img/3numbers/necklace.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.领带 {
+	background: url("img/3numbers/necktie.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.外套 {
+	background: url("img/3numbers/jacket.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.戒指 {
+	background: url("img/3numbers/ring.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.口罩 {
+	background: url("img/3numbers/mask.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.毛衣 {
+	background: url("img/3numbers/sweater.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.背心 {
+	background: url("img/3numbers/undershirt.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.钱包 {
+	background: url("img/3numbers/wallet.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.手套 {
+	background: url("img/3numbers/gloves.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+.斗笠 {
+	background: url("img/3numbers/douli.png") no-repeat center center;
+	background-size: 80% 80%;
+}
+
+/******************/
+
+.hoverMe { 
+	background-color: #edfcf7;
+}
