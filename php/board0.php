@@ -42,7 +42,7 @@
             	</div>
 
 				<div id="emoticons">
-					<img id="emo" src="emoticons/default.png">
+					<img id="emo" src="img/emoticons/default.png">
 				</div>
             
 			 	<div id="reminderButtonDiv"><h6>Подсказки</h6>
@@ -56,7 +56,7 @@
 			
 								<div class="speech">
 										<input onblur="parseAndCorrect(this.value);" oninput="parseAndCorrect(this.value);" type="text" name="s" autocomplete="off" id="guessInput" placeholder=" 简体字" />
-										<img onclick="startDictation();" src="microphone.png" id="imgSpeech" data-toggle="tooltip" data-placement="bottom" data-original-title="Говорите!" />
+										<img onclick="startDictation();" src="./img/microphone.png" id="imgSpeech" data-toggle="tooltip" data-placement="bottom" data-original-title="Говорите!" />
 								</div>
 						</form>
 				</div>

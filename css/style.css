@@ -193,7 +193,7 @@ form {
 .hit {
 	background-color: green;
 	opacity: 0.5;
-	background-image: url('img/cross.png');
+	background-image: url('../img/cross.png');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size: 30%;
@@ -202,7 +202,7 @@ form {
 .miss {
 	background-color: grey;
 	opacity: 0.3;
-	background-image: url('img/circle.png');
+	background-image: url('../img/circle.png');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size: 10%;
@@ -222,7 +222,7 @@ form {
 }
  
 .modalImg {
-	background-image: url('img/victory.jpg');
+	background-image: url('./img/victory.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -238,7 +238,7 @@ div#messageArea {
 }
 
 .replay {
-	background: url("replay.png") no-repeat center center;
+	background: url("../img/replay.png") no-repeat center center;
 	cursor: pointer;
 	background-size: 70% 70%;
 }
@@ -296,90 +296,109 @@ div#messageArea {
 /* ANIMALS 1 LEVEL */
 
 .猫 {
-	background: url("img/1level/cat.png") no-repeat center center;
+	background: url("../img/1level/cat.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	  filter: grayscale(100%);
 	  background-size: 90% 90%;
 }
 
 .大象 {
-	background: url("img/1level/elephant.png") no-repeat center center;
+	background: url("../img/1level/elephant.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	  filter: grayscale(100%);
 	  background-size: 80% 80%;}
 
+.鱼 {
+	background: url("../img/1level/fish.png") no-repeat center center;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	  filter: grayscale(100%);
+	  background-size: 80% 80%;}
 
 .青蛙 {
-	background: url("img/1level/frog.png") no-repeat center center;
+	background: url("../img/1level/frog.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	  filter: grayscale(100%);
 	  background-size: 80% 80%;}
 
 .鸡 {
-	background: url("img/1level/hen.png") no-repeat center center;
+	background: url("../img/1level/hen.png") no-repeat center center;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	  filter: grayscale(100%);
+	  background-size: 80% 80%;}
+
+.马 {
+	background: url("../img/1level/horse.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	  filter: grayscale(100%);
 	  background-size: 80% 80%;}
 
 .狮子 {
-	background: url("img/1level/lion.png") no-repeat center center;
+	background: url("../img/1level/lion.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	  filter: grayscale(100%);
 	  background-size: 80% 80%;}
 
 .猴子 {
-	background: url("img/1level/monkey.png") no-repeat center center;
+	background: url("../img/1level/monkey.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	  filter: grayscale(100%);
 	  background-size: 80% 80%;}
 
 .熊猫 {
-	background: url("img/1level/panda.png") no-repeat center center;
+	background: url("../img/1level/panda.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	  filter: grayscale(100%);
 	  background-size: 80% 80%;}
 
 .兔子 {
-	background: url("img/1level/rabbit.png") no-repeat center center;
+	background: url("../img/1level/rabbit.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	  filter: grayscale(100%);
 	  background-size: 80% 80%;}
 
 .猪 {
-	background: url("img/1level/pig.png") no-repeat center center;
+	background: url("../img/1level/pig.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	  filter: grayscale(100%);
 	  background-size: 80% 80%;}
 
 .乌龟 {
-	background: url("img/1level/turtle.png") no-repeat center center;
+	background: url("../img/1level/turtle.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	  filter: grayscale(100%);
 	  background-size: 80% 80%;}
 
+
+.牛 {
+	background: url("../img/1level/cow.png") no-repeat center center;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+	background-size: 80% 80%;
+}
+
 .狗 {
-	background: url("img/1level/dog.png") no-repeat center center;
+	background: url("../img/1level/dog.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .鸭子 {
-	background: url("img/1level/duck.png") no-repeat center center;
+	background: url("../img/1level/duck.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .羊 {
-	background: url("img/1level/sheep.png") no-repeat center center;
+	background: url("../img/1level/sheep.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .蛇 {
-	background: url("img/1level/snake.png") no-repeat center center;
+	background: url("../img/1level/snake.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
@@ -389,126 +408,126 @@ div#messageArea {
 /* ANIMALS 2 LEVEL */
 
 .海豚 {
-	background: url("img/2level/dolphin.png") no-repeat center center;
+	background: url("../img/2level/dolphin.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .鲸鱼 {
-	background: url("img/2level/whale.png") no-repeat center center;
+	background: url("../img/2level/whale.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .鱿鱼 {
-	background: url("img/2level/squid.png") no-repeat center center;
+	background: url("../img/2level/squid.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .松鼠 {
-	background: url("img/2level/squirrel.png") no-repeat center center;
+	background: url("../img/2level/squirrel.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .蜗牛 {
-	background: url("img/2level/snail.png") no-repeat center center;
+	background: url("../img/2level/snail.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .螃蟹 {
-	background: url("img/2level/crab.png") no-repeat center center;
+	background: url("../img/2level/crab.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .章鱼 {
-	background: url("img/2level/octopus.png") no-repeat center center;
+	background: url("../img/2level/octopus.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .鹿 {
-	background: url("img/2level/deer.png") no-repeat center center;
+	background: url("../img/2level/deer.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .袋鼠 {
-	background: url("img/2level/kangaroo.png") no-repeat center center;
+	background: url("../img/2level/kangaroo.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .龙虾 {
-	background: url("img/2level/lobster.png") no-repeat center center;
+	background: url("../img/2level/lobster.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .蜜蜂 {
-	background: url("img/2level/bee.png") no-repeat center center;
+	background: url("../img/2level/bee.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .刺猬 {
-	background: url("img/2level/hedgehog.png") no-repeat center center;
+	background: url("../img/2level/hedgehog.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .鲨鱼 {
-	background: url("img/2level/shark.png") no-repeat center center;
+	background: url("../img/2level/shark.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .长颈鹿 {
-	background: url("img/2level/giraffe.png") no-repeat center center;
+	background: url("../img/2level/giraffe.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .老虎 {
-	background: url("img/2level/tiger.png") no-repeat center center;
+	background: url("../img/2level/tiger.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .老鼠 {
-	background: url("img/2level/mouse.png") no-repeat center center;
+	background: url("../img/2level/mouse.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .蜻蜓 {
-	background: url("img/2level/dragonfly.png") no-repeat center center;
+	background: url("../img/2level/dragonfly.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .熊 {
-	background: url("img/2level/bear.png") no-repeat center center;
+	background: url("../img/2level/bear.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
@@ -518,119 +537,119 @@ div#messageArea {
 /* ANIMALS 3 LEVEL */
 
 .驼羊 {
-	background: url("img/3level/alpaca.png") no-repeat center center;
+	background: url("../img/3level/alpaca.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .龙 {
-	background: url("img/3level/dragon.png") no-repeat center center;
+	background: url("../img/3level/dragon.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .鸵鸟 {
-	background: url("img/3level/ostrich.png") no-repeat center center;
+	background: url("../img/3level/ostrich.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .海马 {
-	background: url("img/3level/sea_horse.png") no-repeat center center;
+	background: url("../img/3level/sea_horse.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .斑马 {
-	background: url("img/3level/zebra.png") no-repeat center center;
+	background: url("../img/3level/zebra.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .蝴蝶 {
-	background: url("img/3level/butterfly.png") no-repeat center center;
+	background: url("../img/3level/butterfly.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .火烈鸟 {
-	background: url("img/3level/flamingo.png") no-repeat center center;
+	background: url("../img/3level/flamingo.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .猫头鹰 {
-	background: url("img/3level/owl.png") no-repeat center center;
+	background: url("../img/3level/owl.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .海狮 {
-	background: url("img/3level/sea_lion.png") no-repeat center center;
+	background: url("../img/3level/sea_lion.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .骆驼 {
-	background: url("img/3level/camel.png") no-repeat center center;
+	background: url("../img/3level/camel.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .河马 {
-	background: url("img/3level/hippo.png") no-repeat center center;
+	background: url("../img/3level/hippo.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .鹦鹉 {
-	background: url("img/3level/parrot.png") no-repeat center center;
+	background: url("../img/3level/parrot.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .天鹅 {
-	background: url("img/3level/swan.png") no-repeat center center;
+	background: url("../img/3level/swan.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .变色龙 {
-	background: url("img/3level/chameleon.png") no-repeat center center;
+	background: url("../img/3level/chameleon.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .树袋熊 {
-	background: url("img/3level/koala.png") no-repeat center center;
+	background: url("../img/3level/koala.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .企鹅 {
-	background: url("img/3level/penguin.png") no-repeat center center;
+	background: url("../img/3level/penguin.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .海象 {
-	background: url("img/3level/walrus.png") no-repeat center center;
+	background: url("../img/3level/walrus.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
@@ -639,119 +658,119 @@ div#messageArea {
 /* ANIMALS 4 LEVEL */
 
 .蚂蚁 {
-	background: url("img/4level/ant.png") no-repeat center center;
+	background: url("../img/4level/ant.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .老鹰 {
-	background: url("img/4level/eagle.png") no-repeat center center;
+	background: url("../img/4level/eagle.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .蝈蝈 {
-	background: url("img/4level/grasshopper.png") no-repeat center center;
+	background: url("../img/4level/grasshopper.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .蚊子 {
-	background: url("img/4level/mosquito.png") no-repeat center center;
+	background: url("../img/4level/mosquito.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .毛毛虫 {
-	background: url("img/4level/caterpillar.png") no-repeat center center;
+	background: url("../img/4level/caterpillar.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .鳗鱼 {
-	background: url("img/4level/eel.png") no-repeat center center;
+	background: url("../img/4level/eel.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .水母 {
-	background: url("img/4level/jellyfish.png") no-repeat center center;
+	background: url("../img/4level/jellyfish.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .犀牛 {
-	background: url("img/4level/rhino.png") no-repeat center center;
+	background: url("../img/4level/rhino.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .鳄鱼 {
-	background: url("img/4level/crocodile.png") no-repeat center center;
+	background: url("../img/4level/crocodile.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .苍蝇 {
-	background: url("img/4level/fly.png") no-repeat center center;
+	background: url("../img/4level/fly.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .瓢虫 {
-	background: url("img/4level/ladybug.png") no-repeat center center;
+	background: url("../img/4level/ladybug.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .蝎子 {
-	background: url("img/4level/scorpion.png") no-repeat center center;
+	background: url("../img/4level/scorpion.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .恐龙 {
-	background: url("img/4level/dinosaur.png") no-repeat center center;
+	background: url("../img/4level/dinosaur.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .山羊 {
-	background: url("img/4level/goat.png") no-repeat center center;
+	background: url("../img/4level/goat.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .蜥蜴 {
-	background: url("img/4level/lizard.png") no-repeat center center;
+	background: url("../img/4level/lizard.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .蜘蛛 {
-	background: url("img/4level/spider.png") no-repeat center center;
+	background: url("../img/4level/spider.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .狼 {
-	background: url("img/4level/wolf.png") no-repeat center center;
+	background: url("../img/4level/wolf.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
@@ -760,91 +779,91 @@ div#messageArea {
 /* ANIMALS 5 LEVEL */
 
 .北极熊 {
-	background: url("img/5level/polar_bear.png") no-repeat center center;
+	background: url("../img/5level/polar_bear.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .河狸 {
-	background: url("img/5level/beaver.png") no-repeat center center;
+	background: url("../img/5level/beaver.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .丹顶鹤 {
-	background: url("img/5level/crane.png") no-repeat center center;
+	background: url("../img/5level/crane.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .豚鼠 {
-	background: url("img/5level/guinea_pig.png") no-repeat center center;
+	background: url("../img/5level/guinea_pig.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .猎豹 {
-	background: url("img/5level/cheetah.png") no-repeat center center;
+	background: url("../img/5level/cheetah.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .狐狸 {
-	background: url("img/5level/fox.png") no-repeat center center;
+	background: url("../img/5level/fox.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .鸭嘴兽 {
-	background: url("img/5level/platypus.png") no-repeat center center;
+	background: url("../img/5level/platypus.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .蝙蝠 {
-	background: url("img/5level/bat.png") no-repeat center center;
+	background: url("../img/5level/bat.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .蟑螂 {
-	background: url("img/5level/cockroach.png") no-repeat center center;
+	background: url("../img/5level/cockroach.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .大猩猩 {
-	background: url("img/5level/gorilla.png") no-repeat center center;
+	background: url("../img/5level/gorilla.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .树懒 {
-	background: url("img/5level/sloth.png") no-repeat center center;
+	background: url("../img/5level/sloth.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .仓鼠 {
-	background: url("img/5level/hamster.png") no-repeat center center;
+	background: url("../img/5level/hamster.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .袋熊 {
-	background: url("img/5level/wombat.png") no-repeat center center;
+	background: url("../img/5level/wombat.png") no-repeat center center;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-size: 80% 80%;
@@ -853,254 +872,89 @@ div#messageArea {
 /* THINGS & NUMBERS 1 */
 
 .鸟 {
-	background: url("img/1numbers/bird.png") no-repeat center center;
+	background: url("../img/1numbers/bird.png") no-repeat center center;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .书 {
-	background: url("img/1numbers/book.png") no-repeat center center;
+	background: url("../img/1numbers/book.png") no-repeat center center;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .汽车 {
-	background: url("img/1numbers/car.png") no-repeat center center;
+	background: url("../img/1numbers/car.png") no-repeat center center;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .电脑 {
-	background: url("img/1numbers/computer.png") no-repeat center center;
+	background: url("../img/1numbers/computer.png") no-repeat center center;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .花 {
-	background: url("img/1numbers/flower.png") no-repeat center center;
+	background: url("../img/1numbers/flower.png") no-repeat center center;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .肉 {
-	background: url("img/1numbers/meat.png") no-repeat center center;
+	background: url("../img/1numbers/meat.png") no-repeat center center;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+	background-size: 80% 80%;
+}
+
+.桌子 {
+	background: url("../img/1numbers/table.png") no-repeat center center;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .树 {
-	background: url("img/1numbers/tree.png") no-repeat center center;
+	background: url("../img/1numbers/tree.png") no-repeat center center;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
+.椅子 {
+	background: url("../img/1numbers/chair.png") no-repeat center center;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+	background-size: 80% 80%;
+}
 
 .衬衫 {
-	background: url("img/1numbers/shirt.png") no-repeat center center;
+	background: url("../img/1numbers/shirt.png") no-repeat center center;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .山 {
-	background: url("img/1numbers/mountain.png") no-repeat center center;
+	background: url("../img/1numbers/mountain.png") no-repeat center center;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
 .袜子 {
-	background: url("img/1numbers/socks.png") no-repeat center center;
+	background: url("../img/1numbers/socks.png") no-repeat center center;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
 	background-size: 80% 80%;
 }
 
-.鱼 {
-	background: url("img/1numbers/fish.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.马 {
-	background: url("img/1numbers/horse.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.牛 {
-	background: url("img/1numbers/cow.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-/* 方位词 1 */
-
-.床上面 {
-	background: url("img/fangweici/bed-above.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.床下面 {
-	background: url("img/fangweici/bed-under.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.盒子上面 {
-	background: url("img/fangweici/box-above.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.盒子前面 {
-	background: url("img/fangweici/box-before.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.盒子后面 {
-	background: url("img/fangweici/box-behind.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.盒子里面 {
-	background: url("img/fangweici/box-inside.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.盒子左边 {
-	background: url("img/fangweici/box-left.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.盒子右边 {
-	background: url("img/fangweici/box-right.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.盒子下面 {
-	background: url("img/fangweici/box-under.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.椅子上面 {
-	background: url("img/fangweici/chair-above.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.椅子之间 {
-	background: url("img/fangweici/chair-between.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.椅子左边 {
-	background: url("img/fangweici/chair-left.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.椅子右边 {
-	background: url("img/fangweici/chair-right.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.椅子下面 {
-	background: url("img/fangweici/chair-under.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.桌子下面 {
-	background: url("img/fangweici/table-under.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.桌子上面 {
-	background: url("img/fangweici/table-above.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-/* 方位词 2 */
-
-.书包 {
-	background: url("img/2fangweici/backpack.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.自行车 {
-	background: url("img/2fangweici/bike.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.毛笔 {
-	background: url("img/2fangweici/brush.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.胶带 {
-	background: url("img/2fangweici/duct-tape.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.橡皮擦 {
-	background: url("img/2fangweici/eraser.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.胶水 {
-	background: url("img/2fangweici/glue.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.耳机 {
-	background: url("img/2fangweici/headphone.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.冰刀鞋 {
-	background: url("img/2fangweici/ice-skating.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.笔记本 {
-	background: url("img/2fangweici/notebook.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.颜料 {
-	background: url("img/2fangweici/paints.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.钢笔 {
-	background: url("img/2fangweici/pen.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.铅笔 {
-	background: url("img/2fangweici/pencil.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.打印机 {
-	background: url("img/2fangweici/printer.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.墨水 {
-	background: url("img/2fangweici/quill.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.溜冰鞋 {
-	background: url("img/2fangweici/roller-skate.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.尺子 {
-	background: url("img/2fangweici/ruler.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.剪刀 {
-	background: url("img/2fangweici/scissors.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.滑板 {
-	background: url("img/2fangweici/skateboard.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.滑雪板 {
-	background: url("img/2fangweici/ski.png") no-repeat center center;
-	background-size: 80% 80%;
-}
-
-.手机 {
-	background: url("img/2fangweici/smartphone.png") no-repeat center center;
-	background-size: 80% 80%;
-}
 
 /******************/
 

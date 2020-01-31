@@ -12,7 +12,7 @@
 		$postquery = "INSERT INTO comments(author, body) VALUES('$author', '$body')";
 
 		if(mysqli_query($conn, $postquery)) {
-			header('Location: ' .$ROOT_URL . 'index.php');
+			header('Location: ' . $ROOT_URL . 'index.php');
 		} else {
 			echo 'ERROR ' . mysqli_error($conn);
 		}
@@ -31,7 +31,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   	<title>Добавить комментарий</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="../../css/style.css">
 
 </head>
 
@@ -39,6 +39,7 @@
 
     <div class="container">
 
+    <?php include("navbar.php"); ?>
                 
             <a href="<?php echo $ROOT_URL ?>" class="btn btn-outline-primary" style="margin-top: 1rem; margin-bottom: 1rem">Назад</a>
 
@@ -47,7 +48,7 @@
                     <div class="card-body text-secondary">
                         <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
                             <div class="form-group">
-                                <label>Author:</label>
+                                <label>Автор:</label>
                                 <input type="text" name="author" class="form-control" placeholder="Аноним" value="Аноним">
                             </div>
                             <div class="form-group">

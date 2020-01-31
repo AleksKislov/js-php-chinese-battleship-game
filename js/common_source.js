@@ -1,23 +1,23 @@
 //MODEL, Controller, emoticon image, sounds
 
 const hitImg = new Image();
-hitImg.src = "emoticons/hit.png";
+hitImg.src = "img/emoticons/hit.png";
 hitImgSrc = hitImg.src;
 
 const defaultImg = new Image();
-defaultImg.src = "emoticons/default.png";
+defaultImg.src = "img/emoticons/default.png";
 defaultImgSrc = defaultImg.src;
 
 const shipSunkImg = new Image();
-shipSunkImg.src = "emoticons/sunk.png";
+shipSunkImg.src = "img/emoticons/sunk.png";
 shipSunkImgSrc = shipSunkImg.src;
 
 const misskImg = new Image();
-misskImg.src = "emoticons/miss.png";
+misskImg.src = "img/emoticons/miss.png";
 misskImgSrc = misskImg.src;
 
 const allSunkImg = new Image();
-allSunkImg.src = "emoticons/allsunk.png";
+allSunkImg.src = "img/emoticons/allsunk.png";
 allSunkImgSrc = allSunkImg.src;
 
 var model = {

@@ -12,6 +12,8 @@
 
 ?>
 
+</div>
+
 
 <div class="container">
 	<div class="row">
@@ -32,7 +34,7 @@
 				<?php endforeach; ?>
 			</div>
 
-            <a href="<?php echo $ROOT_URL . 'php/add-comment.php' ?>" class="btn btn-outline-primary" style="margin-bottom: 1rem; margin-top: 1rem">Добавить Комментарий</a>
+            <a href="<?php echo $ROOT_URL . 'php/inc/add-comment.php' ?>" class="btn btn-outline-primary" style="margin-bottom: 1rem; margin-top: 1rem">Добавить Комментарий</a>
 
 		</div>
 	</div>
@@ -57,7 +59,6 @@
 
 	 <!-- Custom scripts -->
 
-	 
 	<script>
 		$(function () {
 			$('[data-toggle="tooltip"]').tooltip()
@@ -77,8 +78,12 @@
 		});
 	</script>
     
-    <script src="resize.js?v=4"></script>
-	<script src="dictation.js?v=4"></script>
-	<script src="reminder.js?v=4"></script>
+    <script src="js/utils/resize.js?v=4"></script>
+	<script src="js/utils/dictation.js?v=4"></script>
+	<script src="js/utils/reminder.js?v=4"></script>
 	<script src="js/common_source.js?v=4"></script>
 	<script <?php echo "src=\"$activeJS\"" ?>></script>
+
+	</body>
+
+</html>

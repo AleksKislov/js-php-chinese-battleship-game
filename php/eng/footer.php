@@ -1,5 +1,6 @@
-<hr style="width: 100%; color: rgb(163, 162, 162); height: 1px; background-color:rgb(139, 137, 137); margin-top: 5px" />    
+</div>
 
+<hr style="width: 100%; color: rgb(163, 162, 162); height: 1px; background-color:rgb(139, 137, 137); margin-top: 5px" />    
 
 <footer class="page-footer">
 
@@ -37,8 +38,12 @@
 		});
 	</script>
     
-    <script src="resize.js?v=4"></script>
-	<script src="dictation.js?v=4"></script>
-	<script src="reminder.js?v=4"></script>
+    <script src="js/utils/resize.js?v=4"></script>
+	<script src="js/utils/dictation.js?v=4"></script>
+	<script src="js/utils/reminder.js?v=4"></script>
 	<script src="js/common_source_en.js?v=4"></script>
 	<script <?php echo "src=\"$activeJS\"" ?>></script>
+
+	</body>
+
+</html>

@@ -193,7 +193,7 @@ form {
 .hit {
 	background-color: green;
 	opacity: 0.5;
-	background-image: url('img/cross.png');
+	background-image: url('../img/cross.png');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size: 30%;
@@ -202,7 +202,7 @@ form {
 .miss {
 	background-color: grey;
 	opacity: 0.3;
-	background-image: url('img/circle.png');
+	background-image: url('../img/circle.png');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size: 10%;
@@ -238,7 +238,7 @@ div#messageArea {
 }
 
 .replay {
-	background: url("replay.png") no-repeat center center;
+	background: url("../img/replay.png") no-repeat center center;
 	cursor: pointer;
 	background-size: 70% 70%;
 }
@@ -297,77 +297,77 @@ div#messageArea {
 /* THINGS & NUMBERS 1 */
 
 .鸟 {
-	background: url("img/1numbers/bird.png") no-repeat center center;
+	background: url("../img/1numbers/bird.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .书 {
-	background: url("img/1numbers/book.png") no-repeat center center;
+	background: url("../img/1numbers/book.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .汽车 {
-	background: url("img/1numbers/car.png") no-repeat center center;
+	background: url("../img/1numbers/car.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .电脑 {
-	background: url("img/1numbers/computer.png") no-repeat center center;
+	background: url("../img/1numbers/computer.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .花 {
-	background: url("img/1numbers/flower.png") no-repeat center center;
+	background: url("../img/1numbers/flower.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .肉 {
-	background: url("img/1numbers/meat.png") no-repeat center center;
+	background: url("../img/1numbers/meat.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .桌子 {
-	background: url("img/1numbers/table.png") no-repeat center center;
+	background: url("../img/1numbers/table.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .树 {
-	background: url("img/1numbers/tree.png") no-repeat center center;
+	background: url("../img/1numbers/tree.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .椅子 {
-	background: url("img/1numbers/chair.png") no-repeat center center;
+	background: url("../img/1numbers/chair.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .衬衫 {
-	background: url("img/1numbers/shirt.png") no-repeat center center;
+	background: url("../img/1numbers/shirt.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .山 {
-	background: url("img/1numbers/mountain.png") no-repeat center center;
+	background: url("../img/1numbers/mountain.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .袜子 {
-	background: url("img/1numbers/socks.png") no-repeat center center;
+	background: url("../img/1numbers/socks.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .牛 {
-	background: url("img/1level/cow.png") no-repeat center center;
+	background: url("../img/1level/cow.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .马 {
-	background: url("img/1level/horse.png") no-repeat center center;
+	background: url("../img/1level/horse.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .鱼 {
-	background: url("img/1level/fish.png") no-repeat center center;
+	background: url("../img/1level/fish.png") no-repeat center center;
 	  background-size: 80% 80%;
 }
 
@@ -375,97 +375,97 @@ div#messageArea {
 /* THINGS & NUMBERS 2 */
 
 .帽子 {
-	background: url("img/2numbers/hat.png") no-repeat center center;
+	background: url("../img/2numbers/hat.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .文胸 {
-	background: url("img/2numbers/bra.png") no-repeat center center;
+	background: url("../img/2numbers/bra.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .鸭舌帽 {
-	background: url("img/2numbers/cap.png") no-repeat center center;
+	background: url("../img/2numbers/cap.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .西装 {
-	background: url("img/2numbers/suit.png") no-repeat center center;
+	background: url("../img/2numbers/suit.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .包包 {
-	background: url("img/2numbers/hand-bag.png") no-repeat center center;
+	background: url("../img/2numbers/hand-bag.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .牛仔裤 {
-	background: url("img/2numbers/jeans.png") no-repeat center center;
+	background: url("../img/2numbers/jeans.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .口红 {
-	background: url("img/2numbers/lipstick.png") no-repeat center center;
+	background: url("../img/2numbers/lipstick.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .裤子 {
-	background: url("img/2numbers/pants.png") no-repeat center center;
+	background: url("../img/2numbers/pants.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .围巾 {
-	background: url("img/2numbers/scarf.png") no-repeat center center;
+	background: url("../img/2numbers/scarf.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .短裤 {
-	background: url("img/2numbers/shorts.png") no-repeat center center;
+	background: url("../img/2numbers/shorts.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .裙子 {
-	background: url("img/2numbers/skirt.png") no-repeat center center;
+	background: url("../img/2numbers/skirt.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .墨镜 {
-	background: url("img/2numbers/sunglasses.png") no-repeat center center;
+	background: url("../img/2numbers/sunglasses.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .T恤 {
-	background: url("img/2numbers/tshirt.png") no-repeat center center;
+	background: url("../img/2numbers/tshirt.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .内裤 {
-	background: url("img/2numbers/underwear.png") no-repeat center center;
+	background: url("../img/2numbers/underwear.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .手表 {
-	background: url("img/2numbers/watch.png") no-repeat center center;
+	background: url("../img/2numbers/watch.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .马甲 {
-	background: url("img/2numbers/vest.png") no-repeat center center;
+	background: url("../img/2numbers/vest.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .书包 {
-	background: url("img/2numbers/backpack.png") no-repeat center center;
+	background: url("../img/2numbers/backpack.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .旗袍 {
-	background: url("img/2numbers/qipao.png") no-repeat center center;
+	background: url("../img/2numbers/qipao.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .领结 {
-	background: url("img/2numbers/bow-tie.png") no-repeat center center;
+	background: url("../img/2numbers/bow-tie.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
@@ -473,97 +473,97 @@ div#messageArea {
 /* THINGS & NUMBERS 3 */
 
 .围裙 {
-	background: url("img/3numbers/apron.png") no-repeat center center;
+	background: url("../img/3numbers/apron.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .皮带 {
-	background: url("img/3numbers/belt.png") no-repeat center center;
+	background: url("../img/3numbers/belt.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .大衣 {
-	background: url("img/3numbers/coat.png") no-repeat center center;
+	background: url("../img/3numbers/coat.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .梳子 {
-	background: url("img/3numbers/comb.png") no-repeat center center;
+	background: url("../img/3numbers/comb.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .连衣裙 {
-	background: url("img/3numbers/dress.png") no-repeat center center;
+	background: url("../img/3numbers/dress.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .耳环 {
-	background: url("img/3numbers/earrings.png") no-repeat center center;
+	background: url("../img/3numbers/earrings.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .眼镜 {
-	background: url("img/3numbers/eyeglasses.png") no-repeat center center;
+	background: url("../img/3numbers/eyeglasses.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .拖鞋 {
-	background: url("img/3numbers/slippers.png") no-repeat center center;
+	background: url("../img/3numbers/slippers.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .高跟鞋 {
-	background: url("img/3numbers/highheels.png") no-repeat center center;
+	background: url("../img/3numbers/highheels.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .项链 {
-	background: url("img/3numbers/necklace.png") no-repeat center center;
+	background: url("../img/3numbers/necklace.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .领带 {
-	background: url("img/3numbers/necktie.png") no-repeat center center;
+	background: url("../img/3numbers/necktie.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .外套 {
-	background: url("img/3numbers/jacket.png") no-repeat center center;
+	background: url("../img/3numbers/jacket.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .戒指 {
-	background: url("img/3numbers/ring.png") no-repeat center center;
+	background: url("../img/3numbers/ring.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .口罩 {
-	background: url("img/3numbers/mask.png") no-repeat center center;
+	background: url("../img/3numbers/mask.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .毛衣 {
-	background: url("img/3numbers/sweater.png") no-repeat center center;
+	background: url("../img/3numbers/sweater.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .背心 {
-	background: url("img/3numbers/undershirt.png") no-repeat center center;
+	background: url("../img/3numbers/undershirt.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .钱包 {
-	background: url("img/3numbers/wallet.png") no-repeat center center;
+	background: url("../img/3numbers/wallet.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .手套 {
-	background: url("img/3numbers/gloves.png") no-repeat center center;
+	background: url("../img/3numbers/gloves.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
 .斗笠 {
-	background: url("img/3numbers/douli.png") no-repeat center center;
+	background: url("../img/3numbers/douli.png") no-repeat center center;
 	background-size: 80% 80%;
 }
 
