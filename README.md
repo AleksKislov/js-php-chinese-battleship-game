@@ -4,6 +4,7 @@ game for learning Mandarin, the game was written in JS , templating was done via
 DESCRIPTION:
 simple battleship game where you need to type in phrases in Chinese in order to sink an enemy ship.
 Instead of typing players can use SPEECH RECOGNITION
+
 UPD: 3 commit - added comments section via PHP and MySQLi
 
 THE GAME LINK:
