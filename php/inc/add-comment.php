@@ -2,20 +2,26 @@
 
 <?php require("db.php");
 
-	//post comments
-
+    //post comments
 	if(isset($_POST['submit'])) {
 
-		$author = mysqli_real_escape_string($conn, $_POST['author']);
-		$body = mysqli_real_escape_string($conn, $_POST['body']);
+        // check if there is an author
+        $author = mysqli_real_escape_string($conn, $_POST['author']);
+        $author = (strlen($author) === 0 ? 'Anon' : $author);
 
-		$postquery = "INSERT INTO comments(author, body) VALUES('$author', '$body')";
+        $body = mysqli_real_escape_string($conn, $_POST['body']);
 
-		if(mysqli_query($conn, $postquery)) {
-			header('Location: ' . $ROOT_URL . 'index.php');
-		} else {
-			echo 'ERROR ' . mysqli_error($conn);
-		}
+        if( strlen($body) !== 0 ) {
+            $postquery = "INSERT INTO comments(author, body) VALUES('$author', '$body')";
+    
+            if(mysqli_query($conn, $postquery)) {
+                header('Location: ' . $ROOT_URL . 'index.php');
+            } else {
+                echo 'ERROR ' . mysqli_error($conn);
+            }
+        } else {
+            $msg = 'Кажется, вы ничего еще не написали.';
+        }
     }
     
 ?>
@@ -26,7 +32,7 @@
 
 <head>
     
-    <link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../../img/favicon.png" sizes="32x32">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   	<title>Добавить комментарий</title>
@@ -41,26 +47,26 @@
 
     <?php include("navbar.php"); ?>
                 
-            <a href="<?php echo $ROOT_URL ?>" class="btn btn-outline-primary" style="margin-top: 1rem; margin-bottom: 1rem">Назад</a>
+        <a href="<?php echo $ROOT_URL ?>" class="btn btn-outline-primary" style="margin-top: 1rem; margin-bottom: 1rem">Назад</a>
 
-                <div class="card border-secondary mb-3">
-                    <div class="card-header"><h5>Оставить Комментарий</h5></div>
-                    <div class="card-body text-secondary">
-                        <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
-                            <div class="form-group">
-                                <label>Автор:</label>
-                                <input type="text" name="author" class="form-control" placeholder="Аноним" value="Аноним">
-                            </div>
-                            <div class="form-group">
-                                <label>Комментарий:</label>
-                                <textarea name="body" class="form-control"></textarea>
-                            </div>
-
-                            <input type="submit" name="submit" value="Отправить" class="btn btn-outline-primary">
-                        </form>				
+        <div class="card border-secondary mb-3">
+            <div class="card-header"><h5>Оставить Комментарий</h5></div>
+            <div class="card-body text-secondary">
+                <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
+                    <div class="form-group">
+                        <label>Автор:</label>
+                        <input type="text" name="author" class="form-control" placeholder="Anon">
                     </div>
-                </div>
+                    <div class="form-group">
+                        <label>Комментарий:</label>
+                        <textarea name="body" class="form-control"></textarea>
+                    </div>
 
+                    <input type="submit" name="submit" value="Отправить" class="btn btn-outline-primary">
+                    <span style="color: red; margin-left: 1rem; opacity: 0.7"><?php echo $msg ?></span>
+                </form>				
+            </div>
+        </div>
 
     </div>
 
