@@ -1,6 +1,6 @@
-<?php include("a_config.php"); ?>
-
-<?php require("db.php");
+<?php 
+    include("a_config.php");
+    require("db.php");
 
     //post comments
 	if(isset($_POST['submit'])) {
@@ -15,7 +15,9 @@
             $postquery = "INSERT INTO comments(author, body) VALUES('$author', '$body')";
     
             if(mysqli_query($conn, $postquery)) {
+                ob_start();
                 header('Location: ' . $ROOT_URL . 'index.php');
+                exit();
             } else {
                 echo 'ERROR ' . mysqli_error($conn);
             }
