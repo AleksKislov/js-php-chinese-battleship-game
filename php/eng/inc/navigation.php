@@ -1,46 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73132243-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-73132243-3');
-</script>
-
-    
-  <link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Battleship in Mandarin</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" <?php echo "href=\"$activeCSS\"" ?>>
-
-
-</head>
-
-<body onresize="resize()">
-
-<div class="container">
-
-<nav class="navbar">
-            <div id="myHeader">
-                <h4>Морской Бой</h4>
-                <span id="bringLower">汉语版</span>
-            </div>
-
-            <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                    <a href="index.php" class="btn btn-secondary btn-lg" role="button">Рус</a>
-                    <a href="#" class="btn btn-info btn-lg active" role="button">Eng</a>
-            </div>
-</nav>
-<hr style="width: 100%; color: rgb(163, 162, 162); height: 1px; background-color:rgb(139, 137, 137); margin-top: 5px" />    
-
-
+<?php include("php/eng/inc/navbar.php"); ?>
 
 <div class="row">
 			<div class="col-sm-6">

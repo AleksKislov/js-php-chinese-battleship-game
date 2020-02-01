@@ -19,7 +19,10 @@
 	<div class="row">
 		<div class="col-sm-4"></div>
 		<div class="col-sm-8 comments">
-			<h3>Комментарии <button type="button" class="btn btn-outline-secondary btn-sm" id="commentsToggle">Тумблер</button></h3>
+			<h3 style="margin-bottom: 1rem">Комментарии 
+				<button type="button" class="btn btn-outline-secondary btn-sm" id="commentsToggle">Тумблер</button>
+				<a href="<?php echo $ROOT_URL . 'php/inc/add-comment.php' ?>" class="btn btn-outline-primary btn-sm">Добавить Комментарий</a>
+			</h3>
 
 			<div id="allComments">
 				<?php foreach($comments as $comment) : ?>
@@ -33,9 +36,6 @@
 
 				<?php endforeach; ?>
 			</div>
-
-            <a href="<?php echo $ROOT_URL . 'php/inc/add-comment.php' ?>" class="btn btn-outline-primary" style="margin-bottom: 1rem; margin-top: 1rem">Добавить Комментарий</a>
-
 		</div>
 	</div>
 </div>

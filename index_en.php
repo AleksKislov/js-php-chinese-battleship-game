@@ -1,9 +1,13 @@
-<?php include("php/eng/config.php"); ?>
+<?php 
 
-<?php include("php/eng/header.php"); ?>
+include("php/eng/inc/config.php");
 
-<?php include($currentBoard); ?>
+include("php/eng/inc/header.php"); 
 
-<?php include("php/eng/footer.php"); ?>
+include("php/eng/inc/navigation.php"); 
+
+include($currentBoard); 
+
+include("php/eng/inc/footer.php"); 
 
 
